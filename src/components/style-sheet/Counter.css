@@ -1,0 +1,12 @@
+.counter {
+    min-width: 35vh;
+    height: 35vh;
+    font-size: 20vh;
+    padding: 25px;
+    color: rgb(115, 118, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid rgb(117, 129, 165);
+    margin-bottom: 15px;
+}
