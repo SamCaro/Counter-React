@@ -13,7 +13,6 @@
 }
 
 .counterLogo {
-    margin-top: -20vh;
     height: 50vh;
     max-width: 50vh;
 }
@@ -35,8 +34,6 @@
     justify-content: center;
 }
 
-
-/* Estilos para tabletas y dispositivos móviles */
 @media (max-width: 768px) {
     .counterLogo {
         height: 30vh; 
