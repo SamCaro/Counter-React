@@ -1,4 +1,5 @@
 .counter {
+    margin-top: -5vh;
     min-width: 35vh;
     height: 35vh;
     font-size: 20vh;
@@ -9,4 +10,26 @@
     justify-content: center;
     border: 8px solid rgb(117, 129, 165);
     margin-bottom: 15px;
+}
+
+/* tablets */
+@media (max-width: 768px) {
+    counter {
+       min-width: 60vh;
+        height: 60vh;
+        font-size: 10vh;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* movile */
+@media (max-width: 480px) {
+    counter {
+        min-width: 80vh;
+         height: 80vh;
+         font-size: 6vh;
+         padding: 10px;
+         margin-bottom: 5px;
+     }
 }
